@@ -9,7 +9,6 @@ export interface IStaff extends Document {
   role: Array<
     "manager" | "admin" | "accountent" | "driver" | "marketer" | "factoryWorker"
   >;
-
   gender?: "male" | "female" | "other";
   permanentAddress: {
     district: string;
